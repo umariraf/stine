@@ -14,6 +14,7 @@ Feature: Login
 	Then Submit button should be enabled 
 	When user selects the Submit Button
 	Then Dashboard Page should display
+	And user information should match
 
 #	@automated
 #	@smoke

@@ -67,53 +67,62 @@ formatter.step({
   "name": "Dashboard Page should display",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 17,
+  "name": "user information should match",
+  "keyword": "And "
+});
 formatter.match({
   "location": "LoginSteps.a_user_with_valid_credentials()"
 });
 formatter.result({
-  "duration": 136157961,
+  "duration": 357456100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_goes_to_TechFios_Login_Page()"
 });
 formatter.result({
-  "duration": 4540801330,
+  "duration": 5804870200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.techfios_Login_Page_should_display()"
 });
 formatter.result({
-  "duration": 54700075,
+  "duration": 74047300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_enter_login_information()"
 });
 formatter.result({
-  "duration": 273368002,
+  "duration": 306872200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.submit_button_should_be_enabled()"
 });
 formatter.result({
-  "duration": 32317601,
+  "duration": 45463700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_selects_the_Submit_Button()"
 });
 formatter.result({
-  "duration": 2194458808,
+  "duration": 4205523400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.dashboard_Page_should_display()"
 });
 formatter.result({
-  "duration": 772108789,
+  "duration": 2973808500,
   "status": "passed"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });
